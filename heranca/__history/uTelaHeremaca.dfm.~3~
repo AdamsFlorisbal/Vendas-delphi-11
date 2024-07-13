@@ -1,0 +1,151 @@
+object frmTelaHeranca: TfrmTelaHeranca
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Informe aqui'
+  ClientHeight = 461
+  ClientWidth = 628
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poScreenCenter
+  TextHeight = 15
+  object pgclPrincipal: TPageControl
+    Left = 0
+    Top = 0
+    Width = 628
+    Height = 392
+    ActivePage = tabListagem
+    Align = alClient
+    TabOrder = 0
+    ExplicitWidth = 624
+    ExplicitHeight = 391
+    object tabListagem: TTabSheet
+      Caption = 'Listagem'
+      object pnlListagemTopo: TPanel
+        Left = 0
+        Top = 0
+        Width = 620
+        Height = 81
+        Align = alTop
+        TabOrder = 0
+        ExplicitWidth = 616
+        object mskPesquisar: TMaskEdit
+          Left = 0
+          Top = 30
+          Width = 185
+          Height = 23
+          TabOrder = 0
+          Text = ''
+          TextHint = 'Pesquise aqui'
+        end
+        object btnPesquisar: TButton
+          Left = 191
+          Top = 29
+          Width = 75
+          Height = 25
+          Caption = '&Pesquisar'
+          TabOrder = 1
+        end
+      end
+      object grdListagem: TDBGrid
+        Left = 0
+        Top = 81
+        Width = 620
+        Height = 281
+        Align = alClient
+        DataSource = dtsListagem
+        TabOrder = 1
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -12
+        TitleFont.Name = 'Segoe UI'
+        TitleFont.Style = []
+      end
+    end
+    object tabManutencao: TTabSheet
+      Caption = 'Manuten'#231#227'o'
+      ImageIndex = 1
+    end
+  end
+  object pnlRodaPe: TPanel
+    Left = 0
+    Top = 392
+    Width = 628
+    Height = 69
+    Align = alBottom
+    TabOrder = 1
+    ExplicitTop = 391
+    ExplicitWidth = 624
+    object btnNovo: TButton
+      Left = 4
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = '&Novo'
+      TabOrder = 0
+    end
+    object btnAlterar: TButton
+      Left = 85
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = '&Alterar'
+      TabOrder = 1
+    end
+    object btnCancelar: TButton
+      Left = 166
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = '&Cancelar'
+      TabOrder = 2
+    end
+    object btnGravar: TButton
+      Left = 247
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = '&Gravar'
+      TabOrder = 3
+    end
+    object btnDeletar: TButton
+      Left = 328
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = '&Deletar'
+      TabOrder = 4
+    end
+    object btnFechar: TButton
+      Left = 549
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = '&Fechar'
+      TabOrder = 5
+      OnClick = btnFecharClick
+    end
+    object DBNavigator1: TDBNavigator
+      Left = 436
+      Top = 23
+      Width = 80
+      Height = 25
+      VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast]
+      TabOrder = 6
+    end
+  end
+  object qryQuery: TZQuery
+    Params = <>
+    Left = 308
+    Top = 42
+  end
+  object dtsListagem: TDataSource
+    DataSet = qryQuery
+    Left = 396
+    Top = 42
+  end
+end

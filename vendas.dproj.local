@@ -6,8 +6,14 @@
     <Transaction>2024/07/09 11:11:39.000.842,D:\projeto_delphi\U_principal.pas=C:\Users\adams\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2024/07/09 11:11:50.000.818,D:\projeto_delphi\vendas.dproj=C:\Users\adams\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2024/07/09 20:15:20.000.680,=D:\projeto_delphi\Unit1.pas</Transaction>
-    <Transaction>2024/07/09 20:18:37.000.525,D:\projeto_delphi\datamodule\uDTMConexaoo.pas=D:\projeto_delphi\Unit1.pas</Transaction>
     <Transaction>2024/07/09 20:18:37.000.525,D:\projeto_delphi\datamodule\uDTMConexaoo.dfm=D:\projeto_delphi\Unit1.dfm</Transaction>
+    <Transaction>2024/07/09 20:18:37.000.525,D:\projeto_delphi\datamodule\uDTMConexaoo.pas=D:\projeto_delphi\Unit1.pas</Transaction>
     <Transaction>2024/07/11 17:12:15.000.503,=D:\projeto_delphi\Unit1.pas</Transaction>
+    <Transaction>2024/07/12 16:41:32.000.559,=D:\projeto_delphi\Unit1.pas</Transaction>
+    <Transaction>2024/07/12 16:55:40.000.245,D:\projeto_delphi\uTelaHeremaca.pas=D:\projeto_delphi\Unit1.pas</Transaction>
+    <Transaction>2024/07/12 16:55:40.000.245,D:\projeto_delphi\uTelaHeremaca.dfm=D:\projeto_delphi\Unit1.dfm</Transaction>
+    <Transaction>2024/07/13 18:23:36.177,=D:\projeto_delphi\Unit1.pas</Transaction>
+    <Transaction>2024/07/13 18:26:45.607,D:\projeto_delphi\cadastro\uCadCategoria.pas=D:\projeto_delphi\Unit1.pas</Transaction>
+    <Transaction>2024/07/13 18:26:45.607,D:\projeto_delphi\cadastro\uCadCategoria.dfm=D:\projeto_delphi\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

@@ -26,6 +26,7 @@ object frmPrincipal: TfrmPrincipal
       end
       object CATEGORIA1: TMenuItem
         Caption = 'CATEGORIA PRODUT'
+        OnClick = CATEGORIA1Click
       end
       object N3: TMenuItem
         Caption = 'PRODUTO'
